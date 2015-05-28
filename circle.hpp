@@ -1,3 +1,6 @@
+#ifndef CIRCLE_HPP
+#define CIRCLE_HPP
+
 class Circle 
 {
   public:
@@ -8,3 +11,5 @@ class Circle
   private:
     double radius_;
 };
+
+#endif
