@@ -13,6 +13,7 @@ TEST_CASE("copy_if", "[aufgabe4]") {
   auto lambda = [] (Circle const& c) {return (c.radius() > 3.0);};
 
   //erase needed, because copy_if cannot insert elements
+  //std::back_inserter
   big_circles.erase(
     std::copy_if(circles.begin(), circles.end(), big_circles.begin(), lambda),
     big_circles.end());

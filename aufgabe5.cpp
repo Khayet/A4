@@ -6,11 +6,11 @@
 #include <functional>
 
 TEST_CASE("accumulate", "[aufgabe5]") {
-  const int num_Vec3 = 20; //size of vs
+  const int size_vs = 20; //size of vs
 
   std::vector<Vec3> vs;
 
-  for (int i = 0; i < num_Vec3; ++i) {
+  for (int i = 0; i < size_vs; ++i) {
     vs.push_back( { 1.1*i, 0.88*i, 2.101*i } ); //arbitrary factors
   }
 
